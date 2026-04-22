@@ -34,7 +34,19 @@ npm install vue-gantt-pipelinetable --save
 npm install @infectoone/vue-ganttastic dayjs
 ```
 
-##### Demo.vue
+## 使用
+
+在您的Vue项目中引入组件和样式：
+
+```javascript
+import GanttLineTable from "vue-gantt-pipelinetable";
+import "vue-gantt-pipelinetable/dist/style.css";
+
+// 注册组件
+app.component("GanttLineTable", GanttLineTable);
+```
+
+或在组件中：
 
 ```vue
 <template>
@@ -42,11 +54,8 @@ npm install @infectoone/vue-ganttastic dayjs
     <template #content="{ bar }"> </template>
   </GanttLineTable>
 </template>
-
-<script>
-import GanttLineTable from "./components/GanttLineTable.vue";
-</script>
 ```
+
 ##### 插槽内线形组件
 
 ```

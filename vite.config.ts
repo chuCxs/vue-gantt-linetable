@@ -29,12 +29,14 @@ export default defineConfig({
       name: 'VueGanttLinetable',
       fileName: (format) => `vue-gantt-linetable.${format}.js`
     },
+    cssCodeSplit: false,
     rollupOptions: {
       external: ['vue'],
       output: {
         globals: {
           vue: 'Vue'
-        }
+        },
+        exports: "named"
       }
     }
   }

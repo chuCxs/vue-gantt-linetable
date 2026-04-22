@@ -1,6 +1,6 @@
 {
   "name": "vue-gantt-pipelinetable",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A Vue component for Gantt pipe line table",
   "author": "cxs",
   "license": "MIT",
@@ -8,6 +8,7 @@
   "main": "dist/vue-gantt-linetable.umd.js",
   "module": "dist/vue-gantt-linetable.es.js",
   "types": "dist/index.d.ts",
+  "style": "dist/style.css",
   "files": [
     "dist"
   ],

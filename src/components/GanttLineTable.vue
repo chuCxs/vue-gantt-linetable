@@ -102,7 +102,6 @@ const init = async () => {
       rowChildren: rowList,
     });
   });
-  console.log(rowBarList.value);
   nextTick(() => {
     let gLabelColumnRowElements = document.getElementsByClassName("g-label-column-row") as any;
     for (let i = 0; i < gLabelColumnRowElements.length; i++) {
@@ -204,14 +203,14 @@ defineExpose({
 });
 </script>
 <style scoped>
-.ganttWrapper {
+:deep(.ganttWrapper) {
   width: 100%;
   height: 100%;
   border: 1px solid #eaeaea;
   overflow: hidden;
   font-size: 14px;
 }
-.ganttChart {
+:deep(.ganttChart) {
   width: 100%;
   height: 100%;
   overflow: hidden;
