@@ -47,6 +47,13 @@ npm install @infectoone/vue-ganttastic dayjs
 import GanttLineTable from "./components/GanttLineTable.vue";
 </script>
 ```
+##### 插槽内线形组件
+
+```
+github仓库
+/src/components/lineNode.vue
+/src/components/index.css
+```
 
 ## 配置属性
 
@@ -71,7 +78,7 @@ let ganttOption = {
 let source = [
   {
     siteName: "1#滑道",
-    shipStatus: "规划",//非必要
+    shipStatus: "规划", //非必要
     detailList: [
       {
         nodeStartDate: "2026-04-01",
@@ -82,7 +89,7 @@ let source = [
 let statusColor = {
   default: "#000000",
   // ......
-  规划: "#A9A9A9",//对应shipStatus的value
+  规划: "#A9A9A9", //对应shipStatus的value
 };
 ```
 
