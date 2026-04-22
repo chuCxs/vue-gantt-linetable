@@ -203,14 +203,14 @@ defineExpose({
 });
 </script>
 <style scoped>
-:deep(.ganttWrapper) {
+.ganttWrapper {
   width: 100%;
   height: 100%;
   border: 1px solid #eaeaea;
   overflow: hidden;
   font-size: 14px;
 }
-:deep(.ganttChart) {
+.ganttChart {
   width: 100%;
   height: 100%;
   overflow: hidden;
