@@ -2335,6 +2335,7 @@ const colorConfig = {
   "跟踪项目(可能性低)": "#A9A9A9",
   规划: "#A9A9A9",
   结束: "#A9A9A9",
+  default: "#000000",
   //   background-color: #90ee90; /* 在谈 */
   //   background-color: #0000ff; /* 待生效 */
   //   background-color: #838383; /* 交船 */
