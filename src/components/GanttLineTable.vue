@@ -5,9 +5,9 @@
         <!-- 主时间插槽 -->
         {{ label }}
       </template>
-      <template #timeunit="{ label }">
+      <template #timeunit="{ value }">
         <!-- 副时间插槽 -->
-        {{ dayjs(label).format("MM") }}
+        {{ dayjs(value).format("MM") }}
       </template>
       <template #bar-tooltip>
         <!-- bar悬浮提示插槽 -->
